@@ -5,7 +5,7 @@
 /**
  * main - print a random num
  *
- * Retun: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -16,8 +16,7 @@ int main(void)
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n < 0)
-		printf("%d is negative \n", n);
+		printf("%d is negative\n", n);
 	else
-		prinf("%d is zero \n", n);
 	return (0);
 }
